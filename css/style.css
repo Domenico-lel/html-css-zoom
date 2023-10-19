@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+
+
+
+.contenitore_top span{
+    color: #fff;
+}
+
+
+
+.contenitore_top{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+}
