@@ -1,11 +1,12 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 .riquadro{
     background-color: gray;
     height: fit-content;
-    margin: 10px;
+    padding: 5px;   
     border-radius: 10px 10px 10px 10px;
     box-sizing: border-box;
 }
@@ -22,5 +23,109 @@
     background-color: black;
     display: flex;
     justify-content: flex-end;
+    align-items: start;
+    height: 70px;
+}
+
+
+
+/*inizio modifiche schermi*/
+
+.contenitorelink a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#contenitorearancio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 44px;
+    background-color: rgba(255, 136, 0, 0.726);
+}
+
+#contenitorearancio img{
+    height: 30px;
+}
+.fa-regular, .fa-solid{
+    padding-right: 9px;
+}
+
+.loghini{
+    display: flex;
+    align-items: center;
+    width: 57px;
+    height: 30px;
+}
+
+/*fine header*/
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: calc((100% / 3) - 10px);
+    margin: 0 5px;
+    position: relative;
+    min-height: 100px;
+}
+
+.img_prod img{
+    width: 100%;
+    
+}
+
+
+.ultimo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
     height: 50px;
+    margin-top: 1px;
+    background: rgb(31, 29, 29);
+}
+
+.fondo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 810px;
+    height: 50px;
+}
+
+.logo, .bottone{
+    font-size: 13px;
+    height: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.label{
+    display: inline-block;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    width: 103px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+
+.heart {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    font-size: x-large;
+    line-height: 40px;
 }
