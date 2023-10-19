@@ -2,6 +2,14 @@
     margin: 0;
 }
 
+.riquadro{
+    background-color: gray;
+    height: fit-content;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    box-sizing: border-box;
+}
+
 
 
 .contenitore_top span{
